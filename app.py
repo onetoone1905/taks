@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Feb 27 10:25:48 2020
-
-@author: TM5A5F7N
-"""
 import io
 import datetime
 import pandas as pd
@@ -106,8 +100,6 @@ def parse_contents(contents, filename, date):
         return html.Div([
             'There was an error processing this file.'
         ])
-    #df, le=autoML1.preprocessing_auto(filename, "Survived", hashing=False, n_class=10, verbose = False)
-    #n_clicks=0
     time.sleep(10)
     return html.Div([
 #        html.H5(filename),
